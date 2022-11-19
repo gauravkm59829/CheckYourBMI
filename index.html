@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CheckYourBMI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1 class="title"><span class="first">C</span>heck<span class="first">Y</span>our<span class="second">BMI</span></h1>
+        <nav>
+            <ul class="nav_links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="index1.html">Log in</a></li>
+            </ul>
+        </nav>
+        
+        <a class="sign_up" href="index2.html">Sign up</a>
+        
+    </header>
+    <div id="heading">
+        <h1>Body Mass Index</h1>
+    </div>
+    <section class="bmi">
+    <h1 class="">What is the body mass index (BMI)?</h1>
+    <p class="about">
+        Body mass index (BMI) is an estimate of body fat based on height and weight. It doesn’t measure body fat directly, but instead uses an equation to make an approximation. BMI can help determine whether a person is at an unhealthy or healthy weight.
+
+A high BMI can be a sign of too much fat on the body, while a low BMI can be a sign of too little fat on the body. The higher a person’s BMI, the greater their chances of developing certain serious conditions, such as heart disease, high blood pressure, and diabetes. A very low BMI can also cause health problems, including bone loss, decreased immune function, and anemia.
+
+While BMI can be useful in screening children and adults for body weight problems, it does have its limits. BMI may overestimate the amount of body fat in athletes and other people with very muscular bodies. It may also underestimate the amount of body fat in older adults and other people who have lost muscle mass.
+    </p>
+    </section>
+ 
+ <section class="bmi">
+     <h1 >How to calculate Body Mass Index</h1>
+     <p class="about">
+        Body Mass Index is a simple calculation using a person’s height and weight. The formula is BMI = kg/m2 where kg is a person’s weight in kilograms and m2 is their height in metres squared.
+
+        A BMI of 25.0 or more is overweight, while the healthy range is 18.5 to 24.9. BMI applies to most adults 18-65 years.
+     </p>    
+ </section>
+     <div>
+     <h1 class="calculate">Calculate your Body Mass Index</h1>
+     <div class="container">
+        <div class="row">
+            <input type="range" min="20" max="200" value="20" id="weight" oninput="calculate()">
+            <span id="weight-val">20 kg</span>
+        </div>
+        <div class="row">
+            <input type="range" min="100" max="250" value="100" id="height" oninput="calculate()">
+            <span id="height-val">100 cm</span>
+        </div>
+
+        <p id="result">20.0</p>
+        <p id="category">Normal weight</p>
+    </div>
+ </div>   
+ </div>
+
+ 
+ <div id="risk">
+     <div id="riskfactor">
+    <h2>Risk Factors for Health Topics Associated With Obesity</h2>
+    <p id="descrip">Along with being overweight or obese, the following conditions will put you at greater risk for heart disease and other conditions:</p>
+ </div> 
+ <div id="container">
+     <h2 class="factor">Risk Factors</h2>
+     <ul class="risklists">
+        <a href="https://medlineplus.gov/highbloodpressure.html" target="_blank"><li>High blood pressure (hypertension)</li></a>
+         <a href="https://www.webmd.com/heart-disease/ldl-cholesterol-the-bad-cholesterol" target="_blank"><li>High LDL cholesterol ("bad" cholesterol)</li></a>
+         <a href="https://www.heartuk.org.uk/genetic-conditions/low-hdl-cholesterol-" target="_blank"><li>Low HDL cholesterol ("good" cholesterol)</li></a>
+         <a href="https://medlineplus.gov/triglycerides.html"><li>High triglycerides</li></a>
+         <a href="https://www.medicalnewstoday.com/articles/313138"><li>High blood glucose (sugar)</li></a>
+         <a href="https://www.heart.org/en/health-topics/consumer-healthcare/what-is-cardiovascular-disease/family-history-and-heart-disease-stroke"><li>Family history of premature heart disease</li></a>
+         <a href="https://medlineplus.gov/healthrisksofaninactivelifestyle.html"><li>Physical inactivity</li></a>
+         <a href="https://www.sciencedirect.com/topics/medicine-and-dentistry/cigarette-smoking"><li>Cigarette smoking</li></a>
+     </ul>
+     <p class="about">
+        For people who are considered obese (BMI greater than or equal to 30) or those who are overweight (BMI of 25 to 29.9) and have two or more risk factors, it is recommended that you lose weight. Even a small weight loss (between 5 and 10 percent of your current weight) will help lower your risk of developing diseases associated with obesity. People who are overweight, do not have a high waist measurement, and have fewer than two risk factors may need to prevent further weight gain rather than lose weight.
+
+        Talk to your doctor to see whether you are at an increased risk and whether you should lose weight. Your doctor will evaluate your BMI, waist measurement, and other risk factors for heart disease.
+        
+        The good news is even a small weight loss (between 5 and 10 percent of your current weight) will help lower your risk of developing those diseases.
+     </p>
+ </div>
+
+ <div class="reliable">
+<h2 class="bmi">
+    Is Body Mass Index reliable?
+</h2>
+<p class="about">Your BMI, or Body Mass Index, is a measure of your weight compared to your height. Accurate assessments of obesity are important, as being overweight or obese significantly increases your risk of a variety of medical conditions including type 2 diabetes, heart disease and cancer. As levels of overweight or obesity increase, the spotlight has fallen on BMI and its shortcomings as a measure of ideal weight for individuals, rather than whole populations of people where 'averages' apply.
+
+"Some people naturally have a larger frame than others. But this causes quite a small variation in weight and is accounted for in the range of healthy BMI. There is really no such thing as someone who is big-boned." Dr Jan Sambrook, How to lose weight in a healthy way
+
+For most adults, BMI gives a good estimate of your weight-related health risks. If your BMI is over 35, your weight is definitely putting your health at risk, regardless of the factors below. However, there are some situations where BMI may underestimate or overestimate these risks in the 25-35 BMI range. The main ones are:
+</p>
+
+<h3 class="bmi">Children</h3>
+<p class="about">
+Your GP or health visitor can advise on where your child sits on the ‘centile charts’ used to estimate healthy weights for children.
+</p>
+
+
+<h3 class="bmi">Pregnant women</h3>
+<p class="about">
+Usual BMI estimates do not apply if you’re pregnant.
+</p>
+
+<h3 class="bmi">If you are very muscular</h3>
+<p class="about">
+BMI assumes you have an average amount of body fat, including ‘intra-abdominal fat’ – fat deep inside your stomach cavity rather than under your skin. Intra-abdominal fat is much more closely linked to risks of type 2 diabetes and heart disease than fat under the skin.
+
+
+If you are very muscular, your level of body fat may be lower than predicted by your BMI. However, this only applies to people who do high levels of exercise – much more than average.
+</p>
+
+<h3 class="bmi">If you are of Asian origin</h3>
+<p class="about">
+People of Asian origin are prone to accumulating intra-abdominal fat (fat deep inside your stomach cavity rather than under your skin) at a lower BMI than people of Caucasian origin. People with this pattern of weight gain are described as ‘apples’ rather than ‘pears’ from their body outline. This means their health risks start to rise at a lower BMI, because intra-abdominal fat is directly linked to development of heart disease and type 2 diabetes.
+
+The World Health Organisation has looked at the evidence and because of the variability between different Asian populations, it hasn't officially changed the cut-off points. However, it does recommend that for public health purposes, some Asian groups should be considered overweight if their BMI is 22-25, and obese with a BMI of 26-31.
+</p>
+
+<h3 class="bmi">Older people (over 65, possibly over 60)</h3>
+<p class="about">
+Because muscle mass tends to drop and body fat tends to rise in older people, BMI may not be an accurate reflector of body fat if you're over 60.
+</p>
+ </div>
+</div>
+ 
+ <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+*{
+    box-sizing:border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    background-color: #ebf5fa;
+}
+li,a,button{
+    font-family: "Montserrat", sans-serif;
+    font-weight:500;
+    font-size: 1rem;
+    text-decoration: none;
+    color:rgb(33, 223, 160);
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 1rem 2%;
+    background-color: rgb(34, 22, 43);
+    margin: 1rem 1rem; 
+    border-radius: .3rem;
+    
+}
+.title{
+    cursor: pointer;
+    color:lightcyan;
+    margin-right: auto;
+}
+.nav_links {
+    list-style: none;
+    margin: 0 2rem;
+}
+.nav_links li{
+    display: inline-block;
+    padding: 0 1rem;
+}
+
+.nav_links li a{
+    transition: all 0.3s ease 0s;
+    margin: 0 0;
+}
+
+.nav_links li a:hover {
+    color: rgba(147, 159, 228, 0.7);
+}
+
+.sign_up{
+    margin-left: 0rem;
+    padding: .45rem 1.5rem;
+    width: 7rem;
+    background-color: rgb(56, 184, 88);
+    color:rgb(31, 41, 46);
+    border: none;
+    border-radius: .3rem;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.sign_up:hover {
+    background-color:rgb(19, 128, 28);
+}
+.first{
+    color:rgb(156, 211, 85);
+}
+
+.second{
+    color:rgba(179, 219, 195, 0.877);
+}
+
+
+
+*,
+*:before,
+*:after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+    background-color: #ffffff;
+    padding: 150px 70px;
+    width: 30%;
+    height: 28rem;
+    min-width: 300px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 88rem;
+    left: 50%;
+    border-radius: 5px;
+    font-family: 'Poppins',sans-serif;
+    box-shadow: 25px 25px 30px rgba(0,0,0,0.15);
+    background: rgb(34,116,195);
+background: linear-gradient(120deg, rgb(12, 113, 196) 0%, rgb(123, 224, 157) 100%);}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 55px;
+}
+.row span{
+    font-weight: 700;
+    font-size: large;
+}
+input[type="range"]{
+    width: 70%;
+    height: 10px;
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: #dcdcdc;
+    border-radius: 3px;
+    outline: none;
+}
+input[type="range"]::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    appearance: none;
+    height: 15px;
+    width: 15px;
+    background-color: #1c1c1c;
+    border-radius: 50%;
+    cursor: pointer;
+}
+#result{
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-align: center;
+    color: #e4d4d8;
+}
+#category{
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+#heading {
+    font-size: 1.7rem;
+    margin: 2rem 1rem 2rem 4rem;
+    padding: 1rem 0 1rem 0;
+    
+}
+
+.bmi{
+    font-size: 1.4rem;
+    margin: 1rem 2em 0 5rem;
+    padding: 1rem 0 3rem 0;
+    
+}
+
+.about{
+    background-color:rgb(209, 236, 183);
+    margin: 2rem 0;
+    padding: 3rem ;
+    font-size: 1.4rem;
+
+}
+#riskfactor{
+    margin: 45rem 0 3rem 4.5rem;
+    font-size: 1.4rem;
+}
+
+#container{
+     margin-left: 2rem;
+     padding-left: 1.5rem
+}
+
+.factor{
+    margin: 2rem 0 1rem 5rem;
+    font-size: 2rem;
+    color:rgb(16, 16, 56);
+}
+
+#container li {
+    color:blueviolet;
+    font-size: 1.5rem;
+    margin: 1rem 0 0 3rem;
+    padding: 2rem; 
+}
+
+.calculate {
+    text-align: center;
+    margin-left:30%;
+    width: 40%;
+    border-radius: .3rem;
+    padding: 1rem;
+    background-color: rgb(236, 232, 33);
+}
+
+#descrip{
+    margin: 2rem;
+    padding-left: 3rem;
+}
